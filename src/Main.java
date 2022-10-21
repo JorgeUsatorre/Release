@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello nashe!");
+
+        Funciones calculadora = new Funciones();
+
+        System.out.println("Suma: "+calculadora.suma(2,3));
     }
 }
